@@ -33,4 +33,19 @@ public class BinaryTree{
         insert(n.getRightChild(), data);
     }
   }
+  
+  public int getHeigth(){
+     return getHeigth(root, 0) - 1;
+  }
+  
+  public int getHeigth(TNode n, int cont){
+
+    if(n == null)
+        return cont;
+    
+    cont++;
+    
+    return (Math.max(getHeigth(n.getLeftChild(), cont), 
+                     getHeigth(n.getRightChild(), cont)));
+  }
 }

@@ -1,6 +1,11 @@
 /*
+Count Pair Leafs/Conte Folhas Par
+
+Problem: Develop an algorithm to count how many even-numbered nodes
+a binary tree has.
+
 Problema: Desenvolver um algoritmo para contar quantos nós folhas pares
-uma árvore binária possui
+uma árvore binária possui.
  */
 package hard;
 
@@ -11,6 +16,33 @@ import mydatastructures.TNode;
  *
  * @author Angelo
  */
+
+class CountPairLeafsBTree extends BinaryTree{
+   
+   public int countPairLeafs(){
+     return countPairLeafs(root);
+   }
+   
+   public int countPairLeafs(TNode tnode){
+     
+     if(tnode == null){
+         return 0;
+     }else 
+         if(checkLeaf(tnode) && tnode.getData() % 2 == 0){
+            return 1;
+         }
+         else{
+            return countPairLeafs(tnode.getLeftChild()) + 
+                countPairLeafs(tnode.getRightChild());
+         }
+     }
+    
+    public boolean checkLeaf(TNode tnode){
+        return tnode.getLeftChild() == null && 
+                tnode.getRightChild() == null;
+    }
+  
+}
 public class BinaryTreeCountPairNodes {
     public static void main(String[] args){
       CountPairLeafsBTree bt = new CountPairLeafsBTree();
@@ -24,33 +56,6 @@ public class BinaryTreeCountPairNodes {
       bt.insert(6);
       bt.insert(9);
       bt.insert(10);
-      System.out.println("Pair leafs: " + bt.countPairNodes());
+      System.out.println("Pair leafs: " + bt.countPairLeafs());
     }
-}
-
-class CountPairLeafsBTree extends BinaryTree{
-   
-   public int countPairNodes(){
-     return countPairNodes(root);
-   }
-   
-   public int countPairNodes(TNode tnode){
-     
-     if(tnode == null){
-         return 0;
-     }else 
-         if(checkLeaf(tnode) && tnode.getData() % 2 == 0){
-            return 1;
-         }
-         else{
-            return countPairNodes(tnode.getLeftChild()) + 
-                countPairNodes(tnode.getRightChild());
-         }
-     }
-    
-    public boolean checkLeaf(TNode tnode){
-        return tnode.getLeftChild() == null && 
-                tnode.getRightChild() == null;
-    }
-  
 }

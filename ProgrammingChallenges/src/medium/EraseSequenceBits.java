@@ -1,4 +1,6 @@
 /*
+Erase Bits Sequence/Apagar Sequencia de Bits
+
 Develop an algorithm that given a binary vector, keep only the first
 bit 1 of a sequence and clear the rest of bits 1 of the sequence.
 

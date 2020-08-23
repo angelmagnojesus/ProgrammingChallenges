@@ -21,21 +21,21 @@ public class Dividers1To100 {
         int x = sc.nextInt();
 
         int cont = 0;
-        while (cont < 100) {
-            if (cont % x == 0) {
+        while(cont < 100){
+            if (cont % x == 0){
                 System.out.println(cont);
             }
             cont++;
         }
     }
 
-    public static void dividers1To100Solution2() {
+    public static void dividers1To100Solution2(){
 
         Scanner sc = new Scanner(System.in);
 
         int x = sc.nextInt();
-        for (int cont = 0; cont < 100; cont++) {
-            if (cont % x == 0) {
+        for(int cont = 0; cont < 100; cont++){
+            if (cont % x == 0){
                 System.out.println(cont);
             }
         }
