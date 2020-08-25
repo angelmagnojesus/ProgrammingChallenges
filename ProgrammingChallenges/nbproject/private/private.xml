@@ -5,15 +5,17 @@
         <group>
             <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/medium/SumCombination.java</file>
             <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/easy/vectors/SumBetween2ConsecutiveNumbers.java</file>
-            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/easy/beginners/WriteRepeatingChars.java</file>
             <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/medium/FindCrosses.java</file>
             <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/easy/beginners/MeetingLoop.java</file>
-            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/hard/IsBalanced.java</file>
+            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/mydatastructures/Stack.java</file>
             <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/medium/EraseSequenceBits.java</file>
-            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/util/ArrayUtil.java</file>
             <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/easy/vectors/BitTransition.java</file>
-            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/easy/vectors/IntToBin.java</file>
             <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/programmingchallenges/ProgrammingChallenges.java</file>
+            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/easy/beginners/WriteRepeatingChars.java</file>
+            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/hard/IsBalanced.java</file>
+            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/util/ArrayUtil.java</file>
+            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/hard/StackOfStacks.java</file>
+            <file>file:/Users/Angelo/NetBeansProjects/ProgrammingChallenges/src/easy/vectors/IntToBin.java</file>
         </group>
     </open-files>
 </project-private>
