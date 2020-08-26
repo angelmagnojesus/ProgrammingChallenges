@@ -62,7 +62,7 @@ public class LinkedListEvenOdd extends LinkedList{
                 oddList.insert(nodeToInsert);
             }     
         }
-        System.out.println(">end loop");
+
         //join the lists
         evenList.getTail().setNext(oddList.getHead());
         //set this list
