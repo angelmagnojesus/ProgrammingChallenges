@@ -60,13 +60,13 @@ class StackOfStacks{
     
     //para testar 
     public void printStacks(){
-       String toPrint = "";
+       
        for(Stack s : stacks){
          Integer i = s.pop();
          Stack aux = new Stack();
          while(i != null){
            aux.push(i);
-           toPrint = toPrint +  " , " + i;
+           System.out.print("  " + i + "  ");
            i = s.pop();
          }
          //reconstroi pilha
@@ -75,8 +75,7 @@ class StackOfStacks{
            s.push(i);
            i = aux.pop();
          }
-         toPrint += "\n";
+         System.out.println();
        }
-       System.out.println(toPrint);
     }
 }
